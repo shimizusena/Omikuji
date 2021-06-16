@@ -9,12 +9,22 @@
 /* Begin PBXBuildFile section */
 		C2F9B90C267A1BB9007567D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9B90B267A1BB9007567D0 /* AppDelegate.swift */; };
 		C2F9B90E267A1BB9007567D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9B90D267A1BB9007567D0 /* SceneDelegate.swift */; };
-		C2F9B910267A1BB9007567D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9B90F267A1BB9007567D0 /* ViewController.swift */; };
 		C2F9B913267A1BB9007567D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F9B911267A1BB9007567D0 /* Main.storyboard */; };
 		C2F9B915267A1BBB007567D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F9B914267A1BBB007567D0 /* Assets.xcassets */; };
 		C2F9B918267A1BBB007567D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F9B916267A1BBB007567D0 /* LaunchScreen.storyboard */; };
 		C2F9B923267A1BBB007567D0 /* OmikujiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9B922267A1BBB007567D0 /* OmikujiTests.swift */; };
 		C2F9B92E267A1BBB007567D0 /* OmikujiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9B92D267A1BBB007567D0 /* OmikujiUITests.swift */; };
+		C2F9B93D267A284E007567D0 /* daikiti.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F9B93C267A284E007567D0 /* daikiti.png */; };
+		C2F9B944267A285D007567D0 /* おみくじ1.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F9B93E267A285C007567D0 /* おみくじ1.png */; };
+		C2F9B945267A285D007567D0 /* おみくじ3.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F9B93F267A285C007567D0 /* おみくじ3.png */; };
+		C2F9B946267A285D007567D0 /* shoukitti.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F9B940267A285D007567D0 /* shoukitti.png */; };
+		C2F9B947267A285D007567D0 /* tyukiti.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F9B941267A285D007567D0 /* tyukiti.png */; };
+		C2F9B948267A285D007567D0 /* おみくじ2.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F9B942267A285D007567D0 /* おみくじ2.png */; };
+		C2F9B949267A285D007567D0 /* おみくじ4.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F9B943267A285D007567D0 /* おみくじ4.png */; };
+		C2F9B94B267A28AA007567D0 /* omikuji.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F9B94A267A28AA007567D0 /* omikuji.png */; };
+		C2F9B94D267A2904007567D0 /* zinzya.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F9B94C267A2904007567D0 /* zinzya.png */; };
+		C2F9B95A267A2CB6007567D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9B958267A2CB6007567D0 /* ViewController.swift */; };
+		C2F9B95F267A3130007567D0 /* OmikujiBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9B95E267A3130007567D0 /* OmikujiBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +48,6 @@
 		C2F9B908267A1BB9007567D0 /* Omikuji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Omikuji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F9B90B267A1BB9007567D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2F9B90D267A1BB9007567D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C2F9B90F267A1BB9007567D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C2F9B912267A1BB9007567D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2F9B914267A1BBB007567D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2F9B917267A1BBB007567D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,17 @@
 		C2F9B929267A1BBB007567D0 /* OmikujiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmikujiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F9B92D267A1BBB007567D0 /* OmikujiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmikujiUITests.swift; sourceTree = "<group>"; };
 		C2F9B92F267A1BBB007567D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F9B93C267A284E007567D0 /* daikiti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daikiti.png; sourceTree = SOURCE_ROOT; };
+		C2F9B93E267A285C007567D0 /* おみくじ1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "おみくじ1.png"; sourceTree = SOURCE_ROOT; };
+		C2F9B93F267A285C007567D0 /* おみくじ3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "おみくじ3.png"; sourceTree = SOURCE_ROOT; };
+		C2F9B940267A285D007567D0 /* shoukitti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoukitti.png; sourceTree = SOURCE_ROOT; };
+		C2F9B941267A285D007567D0 /* tyukiti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tyukiti.png; sourceTree = SOURCE_ROOT; };
+		C2F9B942267A285D007567D0 /* おみくじ2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "おみくじ2.png"; sourceTree = SOURCE_ROOT; };
+		C2F9B943267A285D007567D0 /* おみくじ4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "おみくじ4.png"; sourceTree = SOURCE_ROOT; };
+		C2F9B94A267A28AA007567D0 /* omikuji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = omikuji.png; sourceTree = SOURCE_ROOT; };
+		C2F9B94C267A2904007567D0 /* zinzya.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zinzya.png; path = Omikuji/Images/zinzya.png; sourceTree = SOURCE_ROOT; };
+		C2F9B958267A2CB6007567D0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2F9B95E267A3130007567D0 /* OmikujiBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmikujiBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +121,12 @@
 			children = (
 				C2F9B90B267A1BB9007567D0 /* AppDelegate.swift */,
 				C2F9B90D267A1BB9007567D0 /* SceneDelegate.swift */,
-				C2F9B90F267A1BB9007567D0 /* ViewController.swift */,
-				C2F9B911267A1BB9007567D0 /* Main.storyboard */,
+				C2F9B957267A2CB6007567D0 /* Controller */,
+				C2F9B95C267A2CDE007567D0 /* View */,
+				C2F9B95D267A305F007567D0 /* Model */,
 				C2F9B914267A1BBB007567D0 /* Assets.xcassets */,
-				C2F9B916267A1BBB007567D0 /* LaunchScreen.storyboard */,
 				C2F9B919267A1BBB007567D0 /* Info.plist */,
+				C2F9B93B267A283F007567D0 /* Images */,
 			);
 			path = Omikuji;
 			sourceTree = "<group>";
@@ -126,6 +147,47 @@
 				C2F9B92F267A1BBB007567D0 /* Info.plist */,
 			);
 			path = OmikujiUITests;
+			sourceTree = "<group>";
+		};
+		C2F9B93B267A283F007567D0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C2F9B94A267A28AA007567D0 /* omikuji.png */,
+				C2F9B940267A285D007567D0 /* shoukitti.png */,
+				C2F9B941267A285D007567D0 /* tyukiti.png */,
+				C2F9B93E267A285C007567D0 /* おみくじ1.png */,
+				C2F9B942267A285D007567D0 /* おみくじ2.png */,
+				C2F9B93F267A285C007567D0 /* おみくじ3.png */,
+				C2F9B943267A285D007567D0 /* おみくじ4.png */,
+				C2F9B93C267A284E007567D0 /* daikiti.png */,
+				C2F9B94C267A2904007567D0 /* zinzya.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C2F9B957267A2CB6007567D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2F9B958267A2CB6007567D0 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C2F9B95C267A2CDE007567D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2F9B916267A1BBB007567D0 /* LaunchScreen.storyboard */,
+				C2F9B911267A1BB9007567D0 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2F9B95D267A305F007567D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2F9B95E267A3130007567D0 /* OmikujiBrain.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +294,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2F9B918267A1BBB007567D0 /* LaunchScreen.storyboard in Resources */,
+				C2F9B949267A285D007567D0 /* おみくじ4.png in Resources */,
+				C2F9B947267A285D007567D0 /* tyukiti.png in Resources */,
+				C2F9B944267A285D007567D0 /* おみくじ1.png in Resources */,
+				C2F9B93D267A284E007567D0 /* daikiti.png in Resources */,
 				C2F9B915267A1BBB007567D0 /* Assets.xcassets in Resources */,
+				C2F9B948267A285D007567D0 /* おみくじ2.png in Resources */,
+				C2F9B945267A285D007567D0 /* おみくじ3.png in Resources */,
+				C2F9B946267A285D007567D0 /* shoukitti.png in Resources */,
+				C2F9B94B267A28AA007567D0 /* omikuji.png in Resources */,
+				C2F9B94D267A2904007567D0 /* zinzya.png in Resources */,
 				C2F9B913267A1BB9007567D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +329,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2F9B910267A1BB9007567D0 /* ViewController.swift in Sources */,
+				C2F9B95A267A2CB6007567D0 /* ViewController.swift in Sources */,
+				C2F9B95F267A3130007567D0 /* OmikujiBrain.swift in Sources */,
 				C2F9B90C267A1BB9007567D0 /* AppDelegate.swift in Sources */,
 				C2F9B90E267A1BB9007567D0 /* SceneDelegate.swift in Sources */,
 			);
